@@ -76,7 +76,7 @@ header h2 a{
 }
 
 footer{
-    margin-top: 5rem;
+    margin-top: 6rem;
 height: 5rem;
 background-color: #9e579d;
 width: 100%;
@@ -116,8 +116,9 @@ align-items: center;
     }
 
 .foot2{
-    margin:01rem;
+    margin:1rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: white;
 }
 
 
