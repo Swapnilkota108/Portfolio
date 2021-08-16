@@ -21,10 +21,10 @@
 
 header{
     display: flex;
-    height:5rem;
-    width:100%;
-    background-color: #9e579d;
-    justify-content: space-between;
+height: 5rem;
+width: 100%;
+background-color: #9e579d;
+justify-content: space-between;
 }
 
 header h1{
@@ -63,15 +63,55 @@ header h2 a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    height: 8rem;
+    margin-top: 2rem;
+    height: 10rem;
     width: 27rem;
     background-color: #ddd1dd;
 }
 
+
 .tech p {
     margin-left: 1rem;
     margin-top: 1rem;
+}
+
+footer{
+height: 5rem;
+background-color: #9e579d;
+width: 100%;
+}
+
+.foot1{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+}
+.instagram{
+    height: 3rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+
+    .icon{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 15px;
+        
+        margin-right: 1rem;
+        
+        
+        
+    } 
+
+
+    .github{
+        margin-left: 1rem;
+    }
+
+.foot2{
+    margin-top: 1rem;
+    font-family: 'Acme', sans-serif;
 }
 
 
