@@ -16,14 +16,29 @@ body{
     margin-top: 5rem;
 }
 
-h1{
-    margin: 3rem;
+h1 p{
+    font-weight: 100;
+}
+    
+h5{
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .container{
 height: 12rem;
-background-color: violet;
 width: 24rem;
-margin: 1rem;
+margin: 3rem;
+display: flex;
+flex-direction: column;
+
+}
+
+button{
+    height: 3rem;
+    width: 6rem;
+    margin-top:1rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 
 }
