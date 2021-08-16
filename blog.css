@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin-top: 5rem;
+}
+
+h1{
+    margin: 3rem;
+}
+
+.container{
+height: 12rem;
+background-color: violet;
+width: 24rem;
+margin: 1rem;
+
+}
