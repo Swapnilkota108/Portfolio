@@ -22,7 +22,7 @@
 header{
     display: flex;
 height: 5rem;
-width: 100%;
+width: 120%;
 background-color: #9c1de7;
 justify-content: space-between;
 }
