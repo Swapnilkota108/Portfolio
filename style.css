@@ -51,7 +51,7 @@ header h2 a{
 
 .heading2{
     margin-top: 19rem;
-    color:black;
+    color:#40514e;
 }
 
 .web{
@@ -66,13 +66,14 @@ header h2 a{
     margin-top: 2rem;
     height: 10rem;
     width: 27rem;
-    background-color: #f1e6f8;
+    background-color: #dee1ec;
 }
 
 
 .tech p {
     margin-left: 1rem;
     margin-top: 1rem;
+    color: #40514e;
 }
 
 footer{
