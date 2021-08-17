@@ -21,7 +21,7 @@ header{
 display: flex;
 height: 5rem;
 width: 100%;
-background-color: #9c1de7;
+background-color: white;
 justify-content: space-between;
 
 }
@@ -30,7 +30,7 @@ header h1{
     font-family: 'Style Script', cursive;
     margin: 0.9rem;
     font-size: 2.5rem;
-    color: white;
+    color: black;
     
 }
 
@@ -43,7 +43,7 @@ header h2 a{
     margin-left: 1.2rem ;
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: #9c1de7;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 1rem;
 }
