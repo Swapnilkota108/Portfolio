@@ -21,4 +21,7 @@ img{
     max-width: 22rem;
 }
 
-
+li{
+    margin: 0;
+    padding: 0;
+}
