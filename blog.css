@@ -33,6 +33,7 @@ width: 22rem;
 margin: 2rem;
 display: flex;
 flex-direction: column;
+
 }
 
 .container h1{
@@ -48,6 +49,7 @@ button{
     height: 2rem;
     width: 5rem;
     margin-top:1rem;
+    margin-bottom: 1rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 background-color: #9c1de7;
 border-radius: 5px;
