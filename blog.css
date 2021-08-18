@@ -27,17 +27,21 @@ h5{
 }
 
 .container{
-height: 12rem;
+height: 22rem;
 width: 24rem;
 margin: 3rem;
 display: flex;
 flex-direction: column;
+}
 
+a{
+    text-decoration: none;
+    color: white;
 }
 
 button{
-    height: 4rem;
-    width: 6rem;
+    height: 2rem;
+    width: 5rem;
     margin-top:1rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 background-color: #9c1de7;

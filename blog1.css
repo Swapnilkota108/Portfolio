@@ -1,0 +1,21 @@
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-weight: lighter;
+}
+
+span{
+    color: #9c1de7;
+}
+
+img{
+    height: 14rem;
+    min-width: 2rem;
+    max-width: 22rem;
+}
