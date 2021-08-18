@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .heading{
@@ -28,7 +29,7 @@ h5{
 
 .container{
 height: 22rem;
-width: 24rem;
+width: 22rem;
 margin: 3rem;
 display: flex;
 flex-direction: column;
