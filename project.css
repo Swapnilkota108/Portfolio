@@ -31,10 +31,19 @@ a{
     display: flex;
     flex-direction: column;
     height: 15rem;
-    background-color: white;
+    background-color: #f0f0f0;
     width: 25rem;
 margin-left: 5.5rem;
+margin: 1rem;
+padding: 0.5rem;
+border-radius: 0.8rem;
 
+}
+
+#minion{
+    background-image: url('Capture.PNG');
+    background-repeat: no-repeat;
+    background-size: 29rem;
 }
 
 h5{
