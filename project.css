@@ -41,9 +41,13 @@ border-radius: 0.8rem;
 }
 
 #minion{
+    background-color: white;
     background-image: url('Capture.PNG');
     background-repeat: no-repeat;
-    background-size: 29rem;
+    background-size: 17rem;
+    position: relative;
+    background-position-x: 9rem;
+    background-position-y: 7rem;
 }
 
 h5{
