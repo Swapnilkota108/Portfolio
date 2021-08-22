@@ -30,9 +30,9 @@ a{
 .container{
     display: flex;
     flex-direction: column;
-    height: 15rem;
+    height: 13rem;
     background-color: #f0f0f0;
-    width: 25rem;
+    width: 22rem;
 margin-left: 5.5rem;
 margin: 1rem;
 padding: 0.5rem;
