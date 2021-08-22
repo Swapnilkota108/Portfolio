@@ -50,7 +50,7 @@ header h2 a{
     text-decoration: none;
     color: #9c1de7;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .heading2{
@@ -71,6 +71,8 @@ header h2 a{
     height: 12rem;
     width: 25rem;
     background-color: #dee1ec;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 
