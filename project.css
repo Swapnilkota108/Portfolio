@@ -37,6 +37,7 @@ margin-left: 5.5rem;
 margin: 1rem;
 padding: 0.5rem;
 border-radius: 0.8rem;
+border: 1px solid black;
 
 }
 
@@ -58,6 +59,28 @@ border-radius: 0.8rem;
     position: relative;
     background-position-x: 12rem;
     background-position-y: 10rem;
+}
+
+#palindrome{
+    background-color: white;
+    background-image: url('cake.jpg');
+    background-repeat: no-repeat;
+    background-size: 8rem;
+    position: relative;
+    background-position-x: 14rem;
+    background-position-y: 8rem;
+
+}
+
+#stock{
+    background-color: white;
+    background-image: url('stock5.webp');
+    background-repeat: no-repeat;
+    background-size: 9.2rem;
+    position: relative;
+    background-position-x: 14rem;
+    background-position-y: 8rem;
+
 }
 
 #flag{
@@ -99,6 +122,16 @@ border-radius: 0.8rem;
     position: relative;
     background-position-x: 14rem;
     background-position-y: 11.5rem;
+}
+
+#triangle{
+    background-color: white;
+    background-image: url('triangle.png');
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    position: relative;
+    background-position-x: 14rem;
+    background-position-y: 5rem;
 }
 
 h5{
