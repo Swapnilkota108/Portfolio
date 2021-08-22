@@ -42,12 +42,12 @@ border-radius: 0.8rem;
 
 #minion{
     background-color: white;
-    background-image: url('Capture.PNG');
+    background-image: url('https://cdn.wallpapersafari.com/30/71/oJbHgZ.jpg');
     background-repeat: no-repeat;
-    background-size: 17rem;
+    background-size: 11rem;
     position: relative;
-    background-position-x: 9rem;
-    background-position-y: 7rem;
+    background-position-x: 12rem;
+    background-position-y: 9rem;
 }
 
 h5{
