@@ -30,109 +30,17 @@ a{
 .container{
     display: flex;
     flex-direction: column;
-    height: 13rem;
+    height: 14rem;
     background-color: #f0f0f0;
-    width: 22rem;
-margin-left: 5.5rem;
+    width: 23rem;
+
 margin: 1rem;
-padding: 2rem;
+padding: 1rem;
 border-radius: 0.8rem;
 border: 1px solid black;
 
 }
 
-#minion{
-    background-color: white;
-    background-image: url('https://cdn.wallpapersafari.com/30/71/oJbHgZ.jpg');
-    background-repeat: no-repeat;
-    background-size: 11rem;
-    position: relative;
-    background-position-x: 12rem;
-    background-position-y: 9rem;
-}
-
-#ferb{
-    background-color: white;
-    background-image: url('Ferb.webp');
-    background-repeat: no-repeat;
-    background-size: 9rem;
-    position: relative;
-    background-position-x: 12rem;
-    background-position-y: 10rem;
-}
-
-#palindrome{
-    background-color: white;
-    background-image: url('cake.jpg');
-    background-repeat: no-repeat;
-    background-size: 8rem;
-    position: relative;
-    background-position-x: 14rem;
-    background-position-y: 8rem;
-
-}
-
-#stock{
-    background-color: white;
-    background-image: url('stock5.webp');
-    background-repeat: no-repeat;
-    background-size: 9.2rem;
-    position: relative;
-    background-position-x: 14rem;
-    background-position-y: 8rem;
-
-}
-
-#flag{
-    background-color: white;
-    background-image: url('flag.jpg');
-    background-repeat: no-repeat;
-    background-size: 8rem;
-    position: relative;
-    background-position-x: 13rem;
-    background-position-y: 10rem;
-}
-
-#goodanime{
-    background-color: white;
-    background-image: url('anime.jpg');
-    background-repeat: no-repeat;
-    background-size: 11rem;
-    position: relative;
-    background-position-x: 13rem;
-    background-position-y: 9rem;
-}
-
-#cash{
-    background-color: white;
-    background-image: url('cash3.svg');
-    background-repeat: no-repeat;
-    background-size: 8rem;
-    position: relative;
-    background-position-x: 14rem;
-    background-position-y: 9rem;
-
-}
-
-#lucky{
-    background-color: white;
-    background-image: url('lucky.webp');
-    background-repeat: no-repeat;
-    background-size: 12rem;
-    position: relative;
-    background-position-x: 14rem;
-    background-position-y: 11.5rem;
-}
-
-#triangle{
-    background-color: white;
-    background-image: url('triangle.png');
-    background-repeat: no-repeat;
-    background-size: 10rem;
-    position: relative;
-    background-position-x: 14rem;
-    background-position-y: 5rem;
-}
 
 h5{
     margin-top: 0.1rem;
