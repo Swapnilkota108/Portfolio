@@ -48,7 +48,7 @@ header h2 a{
     margin-left: 1rem ;
     list-style: none;
     text-decoration: none;
-    color: #9c1de7;
+    color: #482ff7;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 0.9rem;
 }
@@ -59,7 +59,7 @@ header h2 a{
 }
 
 .web{
-    color:#9c1de7 ;
+    color:#482ff7 ;
 }
 
 .tech{
@@ -85,7 +85,7 @@ header h2 a{
 footer{
     margin-top: 6rem;
 height: 5rem;
-background-color: #9c1de7;
+background-color: #482ff7;
 width: 120%;
 display: flex;
 flex-direction: column;
@@ -128,6 +128,31 @@ align-items: center;
     color: white;
 }
 
+@media (min-width:800px) {
+
+  header h1{
+    font-family: 'Style Script', cursive;
+    margin: 0.5rem;
+    font-size: 3.5rem;
+    color: black;
+    
+}
+
+  header h2{
+    margin: 1.2rem;
+  
+}
+
+header h2 a{
+    margin-top: 1.1rem;
+    margin-left: 1.4rem ;
+    list-style: none;
+    text-decoration: none;
+    color: #482ff7;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.3rem;
+}
+}
 
 /* illustration */
 .cartoon {
@@ -143,7 +168,7 @@ align-items: center;
   }
   
   .b {
-    border: 0.25vmin solid #9e579d;
+    border: 0.25vmin solid black;
   }
   
   .r {
@@ -172,11 +197,11 @@ align-items: center;
   .head {
     top: 0.25vmin;
     left: 50%;
-    color: #9e579d;
+    color: black;
     width: 8vmin;
     height: 12vmin;
     transform: rotate(7deg) translate(-50%, 0);
-    background: #9e579d;
+    background: black;
     box-shadow: inset 0 0.75vmin, inset -0.5vmin -10vmin white, 0 0 0 0.25vmin;
   }
   
@@ -212,8 +237,8 @@ align-items: center;
     width: 0.75vmin;
     height: 3vmin;
     border: 0.25vmin solid transparent;
-    border-left: 0.25vmin solid #9e579d;
-    border-bottom: 0.25vmin solid #9e579d;
+    border-left: 0.25vmin solid black;
+    border-bottom: 0.25vmin solid black;
     border-right: 0;
     top: 50%;
     left: 50%;
@@ -226,7 +251,7 @@ align-items: center;
     height: 3vmin;
     transform: rotate(45deg);
     border: 0.25vmin solid transparent;
-    border-right-color: #9e579d;
+    border-right-color: black;
     top: 55%;
     left: 35%;
   }
@@ -234,7 +259,8 @@ align-items: center;
   .cheeks {
     width: 5vmin;
     height: 1.25vmin;
-    background: rgba(255,0,0,0.10);
+     background: rgba(255,0,0,0.10); 
+  
     top: 50%;
     left: 50%;
     transform: rotate(-7deg) translate(-50%, -10%);
@@ -248,46 +274,47 @@ align-items: center;
   .eyes {
     width: 0.75vmin;
     height: 0.75vmin;
-    background: #9e579d;
+    background: black;
     top: 47%;
     left: 25%;
-    box-shadow: 2.75vmin 0 #963;
+    box-shadow: 2.75vmin 0 black;
     transform: rotate(-7deg) translate(0%, -50%);
     animation: blink 4s infinite;
   }
   
   .eyebrows {
     width: 1.75vmin;
-    border: 0.75vmin solid #9e579d;
+    border: 0.75vmin solid black;
     border-bottom: 0;
     transform: rotate(-7deg);
     top: 33%;
     left: 15%;
-    box-shadow: 3vmin 0 #9e579d;
+    box-shadow: 3vmin 0 black;
   }
   
   .neck {
-    color: #9e579d;
+    color: #482ff7;
     top: 9vmin;
     left: 50%;
     width: 5vmin;
     height: 7vmin;
     transform: translate(-50%, 0);
     border-radius: 80vmin 70vmin 0 0;
-    box-shadow: 0 0 0 0.25vmin, inset 0 -2.5vmin;
+    box-shadow: 0 0 0 0.25vmin black, inset 0 -2.5vmin;
   }
   
   .body {
     width: 20vmin;
     height: 20vmin;
-    background: #9e579d;
+    background: #482ff7;
+    box-shadow:0 0 0 0.25vmin black, inset 2.5vmin;
     top: 15vmin;
     left: 50%;
     transform: translate(-48.5%, 0)
   }
   
   .chest {
-    background: #9e579d;
+    background: #482ff7;
     width: 12vmin;
     height: 15vmin;
     box-shadow: -0.25vmin 0.25vmin #eec, 0.25vmin 2vmin white;
@@ -297,7 +324,7 @@ align-items: center;
   }
   
   .idea {
-    color: #9e579d;
+    color: black;
     font-family: Times, "Times new roman", serif;
     font-size: 4.5vmin;
     width: 6vmin;
@@ -315,5 +342,5 @@ align-items: center;
     width: 160%;
     bottom: 0;
     left: -35%;
-    border-bottom: 0.25vmin solid #9e579d;
+    border-bottom: 0.25vmin solid #482ff7;
   }
