@@ -152,6 +152,15 @@ header h2 a{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 1.3rem;
 }
+
+.boxes{
+  display: flex;
+  
+}
+
+.tech{
+  margin: 1rem;
+}
 }
 
 /* illustration */
