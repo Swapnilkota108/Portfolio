@@ -53,6 +53,10 @@ header h2 a{
     font-size: 0.9rem;
 }
 
+header h2 a:hover{
+  color: black;
+}
+
 .heading2{
     margin-top: 19rem;
     color:#40514e;
