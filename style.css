@@ -201,14 +201,19 @@ header h2 a{
 }
 }
 
-
+@media (min-height:800px) {
+  .cartoon{
+    position: absolute;
+    top: 30%;
+  }
+}
 
 
 
 /* illustration */
 .cartoon {
     position: absolute;
-    top: 40%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
