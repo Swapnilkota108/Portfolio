@@ -11,11 +11,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       width:100%;
-      font-family: 'Atkinson Hyperlegible', sans-serif;
-
-      
+      font-family: 'Atkinson Hyperlegible', sans-serif;    
 }
+
+#altImage{
+  display: none;
+}
+
 
 .name{
 margin: 0.5rem;
@@ -173,8 +177,8 @@ align-items: center;
     margin: 0.5rem;
     font-size: 3.5rem;
     color: black;
-    
 }
+
 
   header h2{
     margin: 1.2rem;
@@ -201,10 +205,33 @@ header h2 a{
 }
 }
 
-@media (min-height:800px) {
+@media only screen and (min-height:900px) {
   .cartoon{
-    position: absolute;
-    top: 30%;
+    display: none;
+  }
+ 
+#altImage{
+  display: block;
+}
+
+.heading2{
+  margin-top: 2rem;
+}
+
+  .tech{
+    display: flex;
+    flex-direction: column;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: column;
+  }
+  #person {
+    height: 30vmin;
+    width: 15vmin;
+  }
+  footer{
+margin-top: 16rem;
   }
 }
 
