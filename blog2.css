@@ -1,5 +1,9 @@
-body{
+*{
     font-family: 'Atkinson Hyperlegible', sans-serif;
+
+}
+
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +12,8 @@ body{
 
 p{
     font-weight: lighter;
+    margin: 0.5rem;
+    
     
 }
 
