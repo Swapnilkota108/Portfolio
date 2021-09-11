@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+<h1> WHAT IS <span> ASHYNCHRONOUS JAVASCRIPT </span>?</h1>
+<img src="async.webp" alt="">
+<p>Since javascript is a single threaded language, asnychronousity helps us in performing task without blocking the flow of code.
+But before understanding what asnychronous javascript is, lets understand what does synchronous mean.</p>
+<p>
+Running programs in a synchronous way means running the programs one after the other.
+For example there are 5 programs to run synchronously each progrsm will be executed one after the other.
+This means that the 5th program will be executed only after all the 4 programs are executed before it.
+Here's an example of a program in javascript;</p>
+<img src="ex.ss.PNG" alt="">
+output;-
+<img src="console.PNG" alt="">
+<p>Here we have console logged 5 times and the we got the output one after the other as we programmed. 
+This was an example of snychronous code, where the code was executed as per the flow of the program.</p>
+
+<p>
+Now let us come back to asnychronous part. Look at the code below:-</p>
+<img src="ex.2.PNG" alt="">
+output;-
+<img src="console2.PNG" alt="">
+<p>Here we delayed the 2nd console.log by 2 seconds using the setTimeout function.This was an example of asynchronous program, where the code was not executed one by one but the programme was delayed.
+Now what if we got an error? Lets have a look at the synchronous code;</p>
+<img src="ex.4.PNG" alt="">
+output
+<img src="console3.PNG" alt="">
+<p>Here we made a mistake and as you can see because of the error our flow of the program has been blocked as it is running synchronously. Now lets see how the asynchronous program handles the error;</p>
+<img src="ex.3.PNG" alt="">
+output;-
+<img src="console4.PNG" alt="">
+<p>Here due to the asynchronous nature of the code the program is not blocked and the further codes are executed.</p>
+
+
+
+
+
+
+
+ But here comes an interesting question. What if we set our time to 0 instead of 2000ms(2s)? Have a look at this code below.
+You would have tthought that the code will execute immediately but it was still console logged at the end. Why is this happening? This is happening because the asynchronous program has been pushed to waiting que and will executed only after the rest of the code executes or if the call stack is empty it will push the asynchronous program to the call stack
+
+
+
+
+
+</body>
+</html>

@@ -8,6 +8,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+
 }
 
 p{
@@ -24,7 +26,9 @@ span{
 img{
     height: 13rem;
     min-width: 2rem;
-    max-width: 22rem;
+    max-width: 24rem;
+    margin: 1rem;
+    
 }
 
 li{
